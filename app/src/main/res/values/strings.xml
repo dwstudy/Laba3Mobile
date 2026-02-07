@@ -1,3 +1,128 @@
 <resources>
-    <string name="app_name">Laba3</string>
+    <string name="app_name">Daily Programming Tips</string>
+    <string name="day_format">Day %d</string>
+    <string name="back">Back</string>
+    <string name="image_description">Tip illustration</string>
+
+    <!-- 30 programming tips in English -->
+    <string name="tip_1_title">Learn Basic Syntax</string>
+    <string name="tip_1_short">Start with variables, data types, and operators</string>
+    <string name="tip_1_full">On the first day, focus on programming language fundamentals. Learn: how to declare variables, basic data types (strings, numbers, booleans), arithmetic and logical operators. Create a simple "Hello World" program and experiment with outputting different values to the screen.</string>
+
+    <string name="tip_2_title">Master Conditional Statements</string>
+    <string name="tip_2_short">Learn if, else if, else, and switch-case</string>
+    <string name="tip_2_full">Conditional statements are the foundation of program logic. Practice writing conditions: if, else if, else, switch-case (or match, depending on the language). Solve several condition-checking tasks, for example: "determine if a number is even," "find the maximum of three numbers."</string>
+
+    <string name="tip_3_title">Work with Loops</string>
+    <string name="tip_3_short">Learn for, while, and do-while loops</string>
+    <string name="tip_3_full">Loops allow you to repeat actions. Learn different types of loops: for, while, do-while. Write a program that outputs numbers from 1 to 10, calculates the sum of numbers in a range, finds the factorial of a number. Understand the differences between loops and when to use each.</string>
+
+    <string name="tip_4_title">Learn Functions/Methods</string>
+    <string name="tip_4_short">Learn to create and use functions</string>
+    <string name="tip_4_full">Functions are building blocks of programs. Learn: declaring functions, passing parameters, returning values. Create functions for frequently repeated actions: calculating areas of shapes, converting units of measurement, checking prime numbers. Understand the concept of variable scope.</string>
+
+    <string name="tip_5_title">Working with Arrays and Lists</string>
+    <string name="tip_5_short">Master storing collections of data</string>
+    <string name="tip_5_full">Arrays and lists store collections of data. Learn: creating arrays/lists, adding/removing elements, iterating through collections. Solve problems: find the maximum element in an array, calculate average value, sort an array, find duplicates. Learn basic collection methods.</string>
+
+    <string name="tip_6_title">Strings and Text Processing</string>
+    <string name="tip_6_short">Master string operations</string>
+    <string name="tip_6_full">Strings are one of the most used data structures. Learn: concatenation, substring search, text replacement, splitting strings, case operations. Write programs: counting words in text, checking palindromes, Caesar cipher. Learn regular expressions for complex search operations.</string>
+
+    <string name="tip_7_title">Object-Oriented Programming</string>
+    <string name="tip_7_short">Get acquainted with classes and objects</string>
+    <string name="tip_7_full">OOP is a key programming paradigm. Learn: classes and objects, constructors, methods, fields. Create a "Student" class with fields: name, age, grades. Add methods for calculating average grade, displaying information. Understand the difference between class and object.</string>
+
+    <string name="tip_8_title">Inheritance and Polymorphism</string>
+    <string name="tip_8_short">Learn basic OOP principles</string>
+    <string name="tip_8_full">Continue learning OOP: inheritance, polymorphism, encapsulation. Create a class hierarchy: Shape → Circle/Square/Triangle. Implement a common "calculate area" method that will work differently for each shape. Learn abstract classes and interfaces.</string>
+
+    <string name="tip_9_title">Exception Handling</string>
+    <string name="tip_9_short">Learn to handle errors in code</string>
+    <string name="tip_9_full">Exceptions help handle errors. Learn: try-catch-finally blocks, creating custom exceptions. Write a program with error handling: division by zero, array index out of bounds, incorrect user input. Learn the difference between checked and unchecked exceptions.</string>
+
+    <string name="tip_10_title">File Operations</string>
+    <string name="tip_10_short">Learn to read and write files</string>
+    <string name="tip_10_full">File operations are an important skill. Learn: reading text files, writing data to files, checking file existence. Create programs: a diary where you can add entries and read old ones; file copying; counting lines in a text file.</string>
+
+    <string name="tip_11_title">Data Structures: Stack and Queue</string>
+    <string name="tip_11_short">Learn basic data structures</string>
+    <string name="tip_11_full">Start learning data structures with stack (LIFO) and queue (FIFO). Implement them yourself using arrays/lists. Solve problems: checking bracket correctness using a stack, simulating a bank queue. Understand where these structures are used in real applications.</string>
+
+    <string name="tip_12_title">Recursion</string>
+    <string name="tip_12_short">Master recursive functions</string>
+    <string name="tip_12_full">Recursion is a function that calls itself. Learn: base case, recursive case. Write recursive functions: calculating factorial, Fibonacci numbers, binary search. Understand the advantages and disadvantages of recursion, learn about stack overflow and tail recursion optimization.</string>
+
+    <string name="tip_13_title">Sorting Algorithms</string>
+    <string name="tip_13_short">Learn bubble sort and quicksort</string>
+    <string name="tip_13_full">Sorting algorithms are the foundation of programming. Implement: bubble sort (simple but slow), quicksort (efficient). Compare their performance on different datasets. Understand time complexity O(n²) vs O(n log n).</string>
+
+    <string name="tip_14_title">Array Search</string>
+    <string name="tip_14_short">Linear and binary search</string>
+    <string name="tip_14_full">Learn two main search algorithms: linear (sequential) and binary. Implement both algorithms. Understand when to use each: binary search works only on sorted arrays but is much faster. Compare complexity O(n) and O(log n).</string>
+
+    <string name="tip_15_title">Git and Version Control</string>
+    <string name="tip_15_short">Start using version control system</string>
+    <string name="tip_15_full">Git is a must-have tool for programmers. Install Git, create an account on GitHub/GitLab. Learn basic commands: init, add, commit, push, pull, clone, branch. Create your first repository, add a README file. Understand the concept of branching and merging.</string>
+
+    <string name="tip_16_title">Working with Databases</string>
+    <string name="tip_16_short">SQL basics and CRUD operations</string>
+    <string name="tip_16_full">Databases store information. Install SQLite or PostgreSQL. Learn SQL: CREATE TABLE, INSERT, SELECT, UPDATE, DELETE. Create a database for bookkeeping: table with fields id, title, author, year. Write queries: find all books by an author, update publication year.</string>
+
+    <string name="tip_17_title">API and HTTP Requests</string>
+    <string name="tip_17_short">Learn to work with web APIs</string>
+    <string name="tip_17_full">APIs allow programs to communicate. Learn HTTP methods: GET, POST, PUT, DELETE. Using libraries (requests in Python, fetch in JS, Retrofit in Kotlin), make a request to a public API (e.g., weather, currency rates). Learn to process JSON responses.</string>
+
+    <string name="tip_18_title">Code Testing</string>
+    <string name="tip_18_short">Start writing unit tests</string>
+    <string name="tip_18_full">Testing is part of professional development. Choose a testing framework (JUnit for Java, pytest for Python, Jest for JS). Write tests for a function that adds two numbers, a function that determines evenness. Learn the AAA pattern: Arrange-Act-Assert. Learn to test edge cases.</string>
+
+    <string name="tip_19_title">Debugging and Profiling</string>
+    <string name="tip_19_short">Learn to find and fix errors</string>
+    <string name="tip_19_full">Debugging is an important skill. Learn to use the debugger in your IDE: breakpoints, step-by-step execution, variable inspection. Write a program with an error (e.g., infinite loop) and find it using the debugger. Learn logging as an alternative to print debugging.</string>
+
+    <string name="tip_20_title">Clean Code and Refactoring</string>
+    <string name="tip_20_short">Learn to write readable code</string>
+    <string name="tip_20_full">Clean code is easier to maintain. Learn principles: meaningful variable names, small functions (up to 20 lines), no code duplication (DRY). Take old code and refactor it: split a large function into several small ones, rename variables, remove dead code.</string>
+
+    <string name="tip_21_title">Algorithm Complexity Basics</string>
+    <string name="tip_21_short">Learn Big O notation</string>
+    <string name="tip_21_full">Big O notation describes algorithm efficiency. Learn: O(1) - constant time, O(n) - linear, O(n²) - quadratic, O(log n) - logarithmic. Analyze your sorting and search algorithms in terms of Big O. Understand why efficiency matters with large data.</string>
+
+    <string name="tip_22_title">Working with Date and Time</string>
+    <string name="tip_22_short">Master date operations</string>
+    <string name="tip_22_full">Date operations are often required in applications. Learn date libraries (datetime in Python, java.time in Java, Date in JS). Learn: parsing dates from strings, formatting dates, calculating differences between dates, adding/subtracting intervals. Create a reminder program.</string>
+
+    <string name="tip_23_title">Multithreading Basics</string>
+    <string name="tip_23_short">Get acquainted with parallel execution</string>
+    <string name="tip_23_full">Multithreading speeds up program execution. Learn: creating threads, synchronization, race conditions. Write a program where multiple threads increment a shared counter. Verify synchronization problems, then solve them using mutexes/semaphores. Be careful with deadlock.</string>
+
+    <string name="tip_24_title">Regular Expressions</string>
+    <string name="tip_24_short">Powerful tool for text processing</string>
+    <string name="tip_24_full">Regular expressions allow finding complex patterns in text. Learn basic constructs: . (any character), * (0 or more), + (1 or more), [] (set), () (group). Write regex for: email validation, phone number, password (letters+digits+special chars). Use online testers for debugging.</string>
+
+    <string name="tip_25_title">Web Development Basics</string>
+    <string name="tip_25_short">Create a simple webpage</string>
+    <string name="tip_25_full">Create your first web page: HTML for structure, CSS for styles, JavaScript for interactivity. Make a business card page: header, paragraph about yourself, skills list, contact form. Deploy it on GitHub Pages. Learn basic HTML tags and CSS properties.</string>
+
+    <string name="tip_26_title">Working with JSON</string>
+    <string name="tip_26_short">Data exchange format</string>
+    <string name="tip_26_full">JSON is a popular format for APIs and configurations. Learn: parsing JSON strings into objects, serializing objects to JSON. Create a program that reads a JSON file with user data and outputs it in formatted form. Learn differences between JSON and XML.</string>
+
+    <string name="tip_27_title">Command Line and Scripts</string>
+    <string name="tip_27_short">Automate routine tasks</string>
+    <string name="tip_27_full">Write your first script in bash/Python for automation. Examples: script for backing up files, for renaming groups of files, for checking website availability. Learn basic command line commands: ls, cd, mkdir, cp, mv, grep. Understand automation benefits.</string>
+
+    <string name="tip_28_title">Architectural Patterns</string>
+    <string name="tip_28_short">MVC, MVVM, Clean Architecture</string>
+    <string name="tip_28_full">Architectural patterns organize code. Learn MVC (Model-View-Controller) - separation into data, presentation, and logic. Create a simple application (e.g., todo list) using MVC. Understand advantages: separation of responsibility, easy testing, support for changes.</string>
+
+    <string name="tip_29_title">Code Optimization</string>
+    <string name="tip_29_short">Make code faster and more efficient</string>
+    <string name="tip_29_full">Optimization improves performance. Analyze old code: find "bottlenecks." Optimize: replace linear search with binary, add caching of calculation results, avoid unnecessary calculations in loops. Measure performance before and after optimization.</string>
+
+    <string name="tip_30_title">Creating a Portfolio</string>
+    <string name="tip_30_short">Collect projects to showcase skills</string>
+    <string name="tip_30_full">Finish the month by creating a portfolio. Select 3 best projects from the month, document them: describe functionality, technologies, problems and solutions. Publish on GitHub with clear README. Create a simple portfolio website or use GitHub Pages. Portfolio is your business card for employers.</string>
+
 </resources>
